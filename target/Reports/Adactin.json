@@ -1,0 +1,469 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "User should able to provide the valid details.",
+        "description": "",
+        "id": "user-should-able-to-book-a-room-in-adactin.;user-should-able-to-provide-the-valid-details.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27884236700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the GC Browser and enter the Adactin Url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com/\"",
+                  "offset": 60
+                }
+              ],
+              "location": "AdactinRoomBooking.user_should_launch_the_GC_Browser_and_enter_the_Adactin_Url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298318200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should able to enter the valid \"Vikram1142\" and \"Vikram@1136\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vikram1142\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Vikram@1136\"",
+                  "offset": 53
+                }
+              ],
+              "location": "AdactinRoomBooking.enterCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1100046100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should able to click the login button.",
+            "match": {
+              "location": "AdactinRoomBooking.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1817228200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Should able to provide \"Melbourne\",\"Hotel Creek\",\"Deluxe\",\"2 - Two\",\"05/4/2021\" ,\"10/4/2021\",\"1 - One\",\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"05/4/2021\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"10/4/2021\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 108
+                }
+              ],
+              "location": "AdactinRoomBooking.hotelSelection(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844711500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should able to click the search button.",
+            "match": {
+              "location": "AdactinRoomBooking.user_Should_able_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163560800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should able to view and select the radio button for requested hotel.",
+            "match": {
+              "location": "AdactinRoomBooking.hotelList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 922979700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Should able to click the continue button.",
+            "match": {
+              "location": "AdactinRoomBooking.user_Should_able_to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99297900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Should able to enter \"363/g1 Vengikkal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"363/g1 Vengikkal\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AdactinRoomBooking.address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066320800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Should able to enter \"Vikram\",\"A\",\"1234567812345678\",\"Master Card\",\"September\",\"2022\",\"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vikram\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"A\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1234567812345678\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 91
+                }
+              ],
+              "location": "AdactinRoomBooking.paymentPage(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5155615400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should able to click the Book Now buttton.",
+            "match": {
+              "location": "AdactinRoomBooking.click_the_Book_Now_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 951231800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should able to Verify whether Room referal code is received or not.",
+            "match": {
+              "location": "AdactinRoomBooking.verify_whether_Room_referal_code_is_received_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "User should able to provide the valid details.",
+        "description": "",
+        "id": "user-should-able-to-book-a-room-in-adactin.;user-should-able-to-provide-the-valid-details.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4725984900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the GC Browser and enter the Adactin Url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com/\"",
+                  "offset": 60
+                }
+              ],
+              "location": "AdactinRoomBooking.user_should_launch_the_GC_Browser_and_enter_the_Adactin_Url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251120600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should able to enter the valid \"Vikram1142\" and \"Vikram@1136\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vikram1142\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Vikram@1136\"",
+                  "offset": 53
+                }
+              ],
+              "location": "AdactinRoomBooking.enterCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 691166100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should able to click the login button.",
+            "match": {
+              "location": "AdactinRoomBooking.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1043865000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Should able to provide \"Sydney\",\"Hotel Creek\",\"Deluxe\",\"2 - Two\",\"05/4/2021\" ,\"10/4/2021\",\"1 - One\",\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"05/4/2021\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"10/4/2021\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 105
+                }
+              ],
+              "location": "AdactinRoomBooking.hotelSelection(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518446800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should able to click the search button.",
+            "match": {
+              "location": "AdactinRoomBooking.user_Should_able_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142148100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should able to view and select the radio button for requested hotel.",
+            "match": {
+              "location": "AdactinRoomBooking.hotelList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 552535400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Should able to click the continue button.",
+            "match": {
+              "location": "AdactinRoomBooking.user_Should_able_to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115443400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Should able to enter \"363/g1 Vengikkal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"363/g1 Vengikkal\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AdactinRoomBooking.address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705888000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Should able to enter \"Vikram\",\"A\",\"1234567812345678\",\"Master Card\",\"September\",\"2022\",\"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vikram\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"A\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1234567812345678\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 91
+                }
+              ],
+              "location": "AdactinRoomBooking.paymentPage(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5146452500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should able to click the Book Now buttton.",
+            "match": {
+              "location": "AdactinRoomBooking.click_the_Book_Now_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1307378000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should able to Verify whether Room referal code is received or not.",
+            "match": {
+              "location": "AdactinRoomBooking.verify_whether_Room_referal_code_is_received_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User should able to book a room in adactin.",
+    "description": "",
+    "id": "user-should-able-to-book-a-room-in-adactin.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/adactinRoomBooking.feature",
+    "tags": []
+  }
+]
