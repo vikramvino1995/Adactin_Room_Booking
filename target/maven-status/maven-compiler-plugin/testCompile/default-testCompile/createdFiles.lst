@@ -1,0 +1,9 @@
+com\pageObjects\HotelList.class
+com\pageObjects\RoomConfirmation.class
+com\stepDefinition\AdactinRoomBooking.class
+com\pageObjects\LoginPage.class
+com\runner\TestRunner.class
+com\base\BaseClass.class
+com\base\JVMReport.class
+com\pageObjects\HotelSelectionPage.class
+com\pageObjects\PaymentPage.class
